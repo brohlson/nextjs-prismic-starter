@@ -14,9 +14,13 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 `;
 
-export default function Layout({ children }) {
+export default function Layout({ children, globalData }) {
+  console.log('Server rendered global data for layout components', {
+    globalData,
+  });
   return (
     <Fragment>
       <RebootStyle />
@@ -29,4 +33,5 @@ export default function Layout({ children }) {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  globalData: PropTypes.object,
 };

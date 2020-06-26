@@ -1,1 +1,1 @@
-export const DATOCMS_ENDPOINT = 'https://graphql.datocms.com/';
+export const PRISMIC_ENDPOINT = 'https://MY_REPO.cdn.prismic.io/api/v2';

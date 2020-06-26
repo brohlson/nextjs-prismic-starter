@@ -1,6 +1,6 @@
 require('dotenv').config();
 module.exports = {
   env: {
-    DATO_API_KEY: process.env.DATO_API_KEY,
+    MY_KEY_FOR_CLIENT: process.env.MY_KEY_FOR_CLIENT,
   },
 };
