@@ -1,7 +1,9 @@
-# Next JS DatoCMS Starter 
-Baseline things for new Next projects (with DatoCMS)
+# Next JS Prismic Starter 
+Baseline things for new Next projects (with Prismic)
 - Next 
-- DatoCMS client 
+- Vercel env setup
+- Prismic client with demo api calls
+- Normalizer setup
 - styled-components 
 - Eslint 
 - Prettier 
